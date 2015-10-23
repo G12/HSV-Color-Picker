@@ -20,18 +20,17 @@
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="180dp"
+                android:layout_height="100dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="TRANSPARENCY Preview"
+                android:text="TRANSPARENCY"
                 android:id="@+id/textViewInfo"
                 android:padding="20dp"
-                android:textSize="40dp" />
+                android:textSize="32dp" />
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="180dp"
-                android:background="#ed1774"
-                android:alpha=".4">
+                android:layout_height="100dp"
+                android:id="@+id/colorPatch">
 
             </RelativeLayout>
         </RelativeLayout>
@@ -48,9 +47,9 @@
             android:layout_width="fill_parent"
             android:layout_height="40dp"
             android:id="@+id/seekBarHue"
-            android:background="@drawable/hue_selector"
             android:thumbTint="#fefefe"
-            android:progressTint="#fefefe" />
+            android:progressTint="#fefefe"
+            android:max="360" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +65,8 @@
             android:id="@+id/seekBarSaturation"
             android:background="@drawable/saturation_selector"
             android:thumbTint="#58bcd0"
-            android:progressTint="#58bcd0" />
+            android:progressTint="#58bcd0"
+            android:max="100" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,7 +83,183 @@
             android:id="@+id/seekBarValue"
             android:background="@drawable/value_selector"
             android:thumbTint="#58bcd0"
-            android:progressTint="#58bcd0" />
+            android:progressTint="#58bcd0"
+            android:max="100" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opacity"
+            android:id="@+id/textViewAlpha"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:autoText="true"
+            android:layout_marginTop="6dp" />
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/seekBarAlpha"
+            android:background="@drawable/saturation_selector"
+            android:thumbTint="#58bcd0"
+            android:progressTint="#58bcd0"
+            android:max="100" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonGroup1">
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#FF0000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#00FF00"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#0000FF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#FFFF00"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#00FFFF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#FF00FF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#C0C0C0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#808080"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#800000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#808000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#008000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#800080"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#008080"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:background="#000080"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="colorButtonClick"
+                    android:alpha="1" />
+            </LinearLayout>
+        </HorizontalScrollView>
     </LinearLayout>
 </RelativeLayout>
