@@ -117,148 +117,148 @@
                 android:id="@+id/buttonGroup1">
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#FFFFFF"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#FF0000"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
-                    android:layout_height="32dp"
-                    android:background="#00FF00"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="colorButtonClick"
-                    android:alpha="1" />
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="32dp"
-                    android:background="#0000FF"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="colorButtonClick"
-                    android:alpha="1" />
-
-                <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#FFFF00"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                    />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
+                    android:layout_height="32dp"
+                    android:background="#00FF00"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:onClick="colorButtonClick"
+                     />
+
+                <Button
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#00FFFF"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                    />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
+                    android:layout_height="32dp"
+                    android:background="#0000FF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:onClick="colorButtonClick"
+                     />
+
+                <Button
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#FF00FF"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#C0C0C0"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#808080"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#800000"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#808000"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#008000"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#800080"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#008080"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
 
                 <Button
-                    android:layout_width="48dp"
+                    android:layout_width="34dp"
                     android:layout_height="32dp"
                     android:background="#000080"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="8dp"
                     android:onClick="colorButtonClick"
-                    android:alpha="1" />
+                     />
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
